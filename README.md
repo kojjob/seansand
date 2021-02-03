@@ -1,0 +1,3 @@
+# Seasnsand
+
+Airbnb like app built with django, html, css, tailwind and more...
