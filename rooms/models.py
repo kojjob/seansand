@@ -6,7 +6,7 @@ from users import models as user_models
 
 
 class AbstractItem(core_models.TimeStampedModel):
-
+  
   """ Abstract Item """
 
   name = models.CharField(max_length=100)

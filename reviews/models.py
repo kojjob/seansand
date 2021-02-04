@@ -1,6 +1,7 @@
 from django.db import models
+from core import models as core_models
 
-class Review(models.Model):
+class Review(core_models.TimeStampedModel):
   user = models.ForeignKey('users.User', on_delete=models.CASCADE)
   room = models.ForeignKey('rooms.Room', on_delete=models.CASCADE)
   review = models.TextField()
